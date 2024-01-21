@@ -1,0 +1,24 @@
+.cargando {
+  min-height: 50vh;
+  margin-top: 25vh;
+}
+
+.verProductos {
+  display: inline-block;
+}
+
+.h2Cargando {
+  display: inline-block;
+  border-radius: 5px;
+  color: black;
+  background-color: white;
+}
+
+.container2 {
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+}

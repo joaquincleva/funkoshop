@@ -1,0 +1,42 @@
+article {
+  background-color: #49505733;
+  opacity: 1;
+  width: 75%;
+  min-width: 300px;
+  border-radius: 10px;
+  align-self: center;
+  max-width: 60%;
+}
+
+.agregarCarrito {
+  display: inline;
+  display: flex;
+  flex-direction: row;
+  height: 40px;
+  justify-content: space-around;
+  align-content: flex-end;
+}
+
+.agregarCarrito:hover {
+  background-color: #29196b;
+}
+
+.quantity {
+  display: inline;
+}
+
+h2 {
+  background-color: #29196b;
+  text-overflow: elipsis;
+  border-radius: 10px 10px 0px 0px;
+  color: #f2e5d2;
+  padding: 0px 4px;
+}
+
+.description {
+  border-radius: 10px 10px 0px 0px;
+  color: #f2e5d2;
+  padding: 0px 10px;
+  margin-left: 5vw;
+  margin-right: 5vw;
+}

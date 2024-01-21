@@ -1,0 +1,39 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #341e8a;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+body {
+  background-color: white;
+  color: #fff;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.navbar-toggler {
+  background-color: #6c757d;
+}
+
+.btn .btn-secundary {
+  background-color: #6c757d;
+  padding: 0px;
+}
+
+.btn-secondary {
+  color: #ffffe0;
+  margin-top: 2px;
+}

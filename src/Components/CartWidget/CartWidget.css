@@ -1,0 +1,12 @@
+.notification {
+  font-size: 0.7rem;
+}
+
+.carrito {
+  padding: 5px;
+}
+
+.carrito:hover {
+  border-radius: 5px;
+  background-color: #5c636a;
+}

@@ -1,0 +1,41 @@
+.cartItem {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr 0.1fr;
+  column-gap: 2vh;
+  margin-right: 2.5vw;
+  margin-left: 2.5vw;
+  color: black;
+  align-items: center;
+  background-color: rgba(186, 186, 186, 0.05);
+}
+
+.cartItem:hover {
+  background: rgba(214, 79, 0, 0.2);
+}
+
+.cartItem__Item {
+  margin-bottom: 0;
+  box-sizing: "border-box";
+}
+
+.linkProducto {
+  padding: 10px;
+  background-color: rgba(186, 186, 186, 0.11);
+  border-radius: 5px;
+}
+
+.linkProducto:hover {
+  background-color: #ff3333;
+  border-radius: 5px;
+}
+
+.removeItem {
+  margin-right: 2.5vw;
+  background-color: #ff3333;
+  border-style: none;
+}
+
+.removeItem:hover {
+  background-color: rgb(150, 25, 25);
+  color: white;
+}

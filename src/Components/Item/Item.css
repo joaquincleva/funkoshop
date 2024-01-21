@@ -1,0 +1,46 @@
+.Item {
+  background-color: #302e2c;
+  width: 25%;
+  margin: 50px;
+  border-radius: 10px;
+  min-width: 150px;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+}
+
+.stock {
+  background-color: #302e2c;
+  margin-top: auto;
+}
+
+h3 {
+  background-color: #29196b;
+  text-overflow: elipsis;
+  border-radius: 10px 10px 0px 0px;
+  color: #f2e5d2;
+  padding: 0px 4px;
+}
+
+footer {
+  background-color: #29196b;
+  border-radius: 0px 00px 10px 10px;
+  align-self: stretch;
+  margin-top: auto;
+}
+
+footer:hover {
+  background-color: black;
+  border-radius: 0px 00px 10px 10px;
+}
+
+picture {
+  margin-top: auto;
+}
+
+span {
+  margin: 10px;
+  font-weight: 700;
+  display: block;
+}

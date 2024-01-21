@@ -1,0 +1,59 @@
+.navbar-brand {
+  font-family: "Luckiest Guy", cursive, Georgia, "Times New Roman", Times, serif;
+  font-size: 30px;
+  margin-top: 3px;
+  color: #900303;
+}
+
+.bannerFunko {
+  position: relative;
+  height: 35vh;
+}
+
+.bannerFunko::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url("../../assets/funkos-banner.webp"),
+    lightgray 50% / cover no-repeat;
+  background-size: cover;
+  filter: blur(1.5px);
+}
+
+.bannerFunko > div {
+  position: relative;
+  z-index: 1;
+}
+
+.navbar {
+  background-color: #302e2c00 !important;
+}
+
+.boton {
+  background-color: #302e2c00;
+  border-color: #302e2c00;
+}
+
+.boton:hover {
+  text-decoration: none;
+}
+
+a {
+  color: #bf811d;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #825815;
+}
+
+@media screen and (max-width: 765px) {
+  .desplegable {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}

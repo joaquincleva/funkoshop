@@ -1,0 +1,8 @@
+.itemDetail {
+  display: flex;
+  justify-content: center;
+}
+
+.spinner {
+  margin-top: 50vh;
+}
