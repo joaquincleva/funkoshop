@@ -6,3 +6,49 @@ h1 {
 .spinner {
   margin-top: 50vh;
 }
+
+.loading {
+  height: 15vh;
+  rotate: 180deg;
+  padding-bottom: 450px;
+}
+
+.pageContainer {
+  width: 25%;
+  color: black;
+  padding-left: 15px;
+  padding-top: 15vh;
+}
+
+.searchText {
+  margin: 0;
+  padding: 0;
+  text-align: start;
+  width: 100%;
+}
+
+.sortText {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  margin-top: 5px;
+}
+
+.priceText {
+  margin: 0;
+  padding: 0;
+  text-align: start;
+  margin-top: "5px";
+  width: "100%";
+}
+
+.hyphen {
+  line-height: 10px;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+}
+
+.width100{
+  width: 100%
+}

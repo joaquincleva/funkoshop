@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   margin-top: 10vh;
+  min-height: 63vh;
 }
 
 .cartItemCart {
@@ -15,6 +16,8 @@
   margin-right: 5vw;
   margin-top: 3vh;
   border-radius: 5px;
+  background-color: white;
+  color: black;
 }
 
 .footer {
@@ -54,16 +57,16 @@
 }
 
 .verProductos {
-  background-color: #bf811d;
-  color: #29196b;
+  background-color: #ff3333;
+  color: white;
   font-size: 1.2rem;
   border-radius: 10px;
   text-align: center;
-  padding: 0px 6px 0px 3px;
+  padding: 5px;
 }
 .verProductos:hover {
-  background-color: #29196b;
-  color: #bf811d;
+  background-color: #ff0000;
+  color: white;
   border-radius: 10px;
 }
 

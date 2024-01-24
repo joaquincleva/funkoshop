@@ -1,18 +1,52 @@
 .Item {
-  background-color: #302e2c;
   width: 25%;
   margin: 50px;
   border-radius: 10px;
   min-width: 150px;
   align-self: stretch;
+  align-content: space-around;
+
+  background-color: white;
+  display: flex;
+  color: black;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.picture {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-left: 20%;
+}
+
+.section {
   display: flex;
   flex-direction: column;
-  align-content: space-around;
+  align-items: center;
+}
+
+.category {
+  font-size: 13px;
+  padding-top: 15px;
+  margin: 0px;
+}
+
+.title {
+  font-size: 20px;
+  padding: 0px;
+  margin: 0px;
 }
 
 .stock {
   background-color: #302e2c;
   margin-top: auto;
+}
+
+.price {
+  font-size: 17px;
+  padding: 0px;
+  margin: 0px;
 }
 
 h3 {

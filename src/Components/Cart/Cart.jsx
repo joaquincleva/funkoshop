@@ -10,27 +10,18 @@ const Cart = () => {
   return totalQuantity === 0 ? (
     <div className="carritoVacio" style={{ minHeight: "50vh" }}>
       <h1 style={{ color: "darkgray" }}>There are no products in the cart</h1>
-      <Link
-        to="/"
-        className="verProductos"
-        style={{ padding: "5px", backgroundColor: "#FF3333", color: "white" }}
-      >
+      <Link to="/" className="verProductos">
         See products
       </Link>
     </div>
   ) : (
-    <div className="cart" style={{ minHeight: "63vh" }}>
+    <div className="cart">
       <div className="cartItemCart">
         {cart.map((p) => (
           <CartItem key={p.id} item={p} />
         ))}
       </div>
-      <h3
-        className="total"
-        style={{ backgroundColor: "white", color: "black" }}
-      >
-        Total: ${total}
-      </h3>
+      <h3 className="total">Total: ${total}</h3>
       <div className="footer">
         <button
           onClick={() => clearCart()}

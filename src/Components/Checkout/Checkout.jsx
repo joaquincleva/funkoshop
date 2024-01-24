@@ -89,15 +89,7 @@ const Checkout = () => {
         <div className="cargando">
           <h2 className="h2Cargando">Your order id is: {orderId}</h2>
           <br />
-          <Link
-            to="/"
-            className="verProductos"
-            style={{
-              padding: "5px",
-              backgroundColor: "#FF3333",
-              color: "white",
-            }}
-          >
+          <Link to="/" className="verProductos">
             Return to homepage
           </Link>
         </div>

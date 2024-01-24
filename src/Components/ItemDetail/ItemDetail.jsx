@@ -4,16 +4,7 @@ import "./ItemDetail.css";
 
 const ItemDetail = ({ props }) => {
   return (
-    <article
-      style={{
-        backgroundColor: "white",
-        display: "flex",
-        color: "black",
-        justifyContent: "center",
-        alignContent: "center",
-        gap: 25,
-      }}
-    >
+    <article>
       <picture
         style={{
           margin: 0,
@@ -30,53 +21,19 @@ const ItemDetail = ({ props }) => {
           </Carousel.Item>
         </Carousel>
       </picture>
-      <section
-        style={{
-          display: "flex",
-          flexDirection: "column",
-          alignItems: "flex-start",
-        }}
-      >
-        <p
-          style={{
-            fontSize: "12px",
-            paddingTop: "15px",
-            margin: "0px",
-            color: "grey",
-            textTransform: "uppercase",
-          }}
-        >
+      <section className="section">
+        <p className="category">
           {props.categoryId === "63F5KQ32yWGUM7aVsEpO"
             ? "Star Wars"
             : props.categoryId === "KqE8AduIVGfVCVhbANdd"
             ? "Pokemon"
             : "Harry Potter"}
         </p>
-
-        <p
-          style={{
-            fontSize: "32px",
-            padding: "0px",
-            margin: "0px",
-            fontWeight: "bold",
-            textTransform: "uppercase",
-          }}
-        >
-          {props.title}
-        </p>
+        <p className="title">{props.title}</p>
         <p style={{ textAlign: "start", fontSize: "13px" }}>
           {props.description}
         </p>
-        <p
-          style={{
-            fontSize: "36px",
-            padding: "0px",
-            margin: "0px",
-            marginBottom: "10px",
-          }}
-        >
-          ${props.price}
-        </p>
+        <p className="price">${props.price}</p>
         <p>
           <ItemCount props={props} />
         </p>

@@ -5,6 +5,9 @@
 
 .verProductos {
   display: inline-block;
+  padding: "5px";
+  background-color: #ff3333;
+  color: white;
 }
 
 .h2Cargando {

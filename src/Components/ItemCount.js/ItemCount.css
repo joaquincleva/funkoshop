@@ -7,6 +7,42 @@
   font-size: 1.5rem;
 }
 
+.disminuir {
+  padding: 6px;
+  padding-left: 14px;
+  padding-right: 14px;
+  background-color: #4f4f4f;
+  color: white;
+  border: none;
+  font-weight: 600;
+}
+
+.aumentar {
+  padding: 6px;
+  padding-left: 12px;
+  padding-right: 12px;
+  background-color: #4f4f4f;
+  color: white;
+  border: none;
+  font-weight: 600;
+}
+
+.addButton {
+  padding: 6px;
+  padding-left: 12px;
+  padding-right: 12px;
+  border: none;
+  font-weight: 500;
+}
+
+.linkButton {
+  padding: 6px;
+  border: none;
+  color: white;
+  font-weight: 500;
+  background-color: #ff3333;
+}
+
 .botonStock:hover {
   border: 10px;
   background-color: #3d269e;

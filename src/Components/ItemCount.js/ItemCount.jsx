@@ -34,43 +34,17 @@ const ItemCount = ({ props }) => {
       {!isInCart(props.id) ? (
         <div style={{ display: "flex", gap: 15 }}>
           <div>
-            <button
-              style={{
-                padding: "6px",
-                paddingLeft: "14px",
-                paddingRight: "14px",
-                backgroundColor: "#4F4F4F",
-                color: "white",
-                border: "none",
-                fontWeight: "600",
-              }}
-              onClick={disminuir}
-            >
+            <button className="disminuir" onClick={disminuir}>
               -
             </button>
             <span className="quantity">{cantidad}</span>
-            <button
-              style={{
-                padding: "6px",
-                paddingLeft: "12px",
-                paddingRight: "12px",
-                backgroundColor: "#4F4F4F",
-                color: "white",
-                border: "none",
-                fontWeight: "600",
-              }}
-              onClick={aumentar}
-            >
+            <button className="aumentar" onClick={aumentar}>
               +
             </button>
           </div>
           <button
+            className="addButton"
             style={{
-              padding: "6px",
-              paddingLeft: "12px",
-              paddingRight: "12px",
-              border: "none",
-              fontWeight: "500",
               color: `${!props.stock || cantidad ? "white" : "grey"}`,
               backgroundColor: `${!props.stock || cantidad ? "#FF3333" : ""}`,
             }}
@@ -82,28 +56,10 @@ const ItemCount = ({ props }) => {
         </div>
       ) : (
         <div style={{ display: "flex", gap: 5 }}>
-          <Link
-            to="/shop"
-            style={{
-              padding: "6px",
-              border: "none",
-              color: "white",
-              fontWeight: "500",
-              backgroundColor: "#FF3333",
-            }}
-          >
+          <Link className="linkButton" to="/shop">
             See more products
           </Link>
-          <Link
-            to="/cart"
-            style={{
-              padding: "6px",
-              color: "white",
-              border: "none",
-              fontWeight: "500",
-              backgroundColor: "#FF3333",
-            }}
-          >
+          <Link to="/cart" className="linkButton">
             Finish buying
           </Link>
         </div>

@@ -85,9 +85,7 @@ const ItemListContainer = () => {
   return (
     <div>
       {loading ? (
-        <div
-          style={{ height: "15vh", rotate: "180deg", paddingBottom: "450px" }}
-        >
+        <div className="loading">
           <Spinner animation="border" variant="warning" className="spinner" />
         </div>
       ) : (
@@ -98,27 +96,11 @@ const ItemListContainer = () => {
           }}
         >
           {categoryId === undefined ? (
-            <div
-              style={{
-                width: "25%",
-                color: "black",
-                paddingLeft: "15px",
-                paddingTop: "15vh",
-              }}
-            >
+            <div className="pageContainer">
               <label style={{ margin: "0", padding: "0", width: "100%" }}>
-                <p
-                  style={{
-                    margin: 0,
-                    padding: "0",
-                    textAlign: "start",
-                    width: "100%",
-                  }}
-                >
-                  Search product
-                </p>
+                <p className="searchText">Search product</p>
                 <input
-                  style={{ width: "100%" }}
+                  className="width100"
                   type="text"
                   placeholder="Product, category"
                   onChange={(e) =>
@@ -129,20 +111,13 @@ const ItemListContainer = () => {
                   }
                 />
               </label>
-              <label
-                style={{
-                  margin: "0",
-                  padding: "0",
-                  width: "100%",
-                  marginTop: "5px",
-                }}
-              >
+              <label className="sortText">
                 <p style={{ margin: 0, padding: "0", textAlign: "start" }}>
                   Sort by
                 </p>
                 <select
                   type="text"
-                  style={{ width: "100%" }}
+                  className="width100"
                   onChange={(e) =>
                     setFilter((prevState) => ({
                       ...prevState,
@@ -158,29 +133,13 @@ const ItemListContainer = () => {
                 </select>
               </label>
               <div>
-                <p
-                  style={{
-                    margin: 0,
-                    padding: "0",
-                    textAlign: "start",
-                    marginTop: "5px",
-                    width: "100%",
-                  }}
-                >
-                  Price
-                </p>
+                <p className="priceText">Price</p>
                 <div>
-                  <label
-                    style={{
-                      width: "100%",
-                    }}
-                  >
+                  <label className="width100">
                     <input
                       type="number"
                       placeholder="Min price"
-                      style={{
-                        width: "100%",
-                      }}
+                      className="width100"
                       onChange={(e) =>
                         setFilter((prevState) => ({
                           ...prevState,
@@ -189,26 +148,11 @@ const ItemListContainer = () => {
                       }
                     />
                   </label>
-                  <p
-                    style={{
-                      lineHeight: "10px",
-                      margin: "0px",
-                      padding: "0px",
-                      width: "100%",
-                    }}
-                  >
-                    -
-                  </p>
-                  <label
-                    style={{
-                      width: "100%",
-                    }}
-                  >
+                  <p className="hyphen">-</p>
+                  <label className="width100">
                     <input
                       type="number"
-                      style={{
-                        width: "100%",
-                      }}
+                      className="width100"
                       placeholder="Max price"
                       onChange={(e) =>
                         setFilter((prevState) => ({

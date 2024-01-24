@@ -1,0 +1,126 @@
+.innerBanner {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: space-around;
+  align-items: center;
+  align-content: baseline;
+}
+
+.bannerText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.shopLink {
+  border-radius: 5px;
+  background-color: white;
+  padding: 5px;
+  color: black;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.categoryCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.categoryCardReverse {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+}
+
+.categoryCardText {
+  height: 100%;
+  display: flex;
+  width: 450px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.seeCollectionText {
+  background-color: #30343f;
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.lastReleasesText {
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  text-align: start;
+  padding-left: 10vw;
+}
+
+.lastReleasesContainer {
+  display: flex;
+  width: 90%;
+  padding-left: auto;
+  padding-right: auto;
+  justify-content: center;
+}
+
+.lastReleasesArticle {
+  background-color: white;
+  display: flex;
+  color: black;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.newText {
+  background-color: #ff3333;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: white;
+  margin-right: 25px;
+}
+
+.lastReleasesPicture {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-left: 20%;
+}
+
+.lastReleasesSection {
+  margin-left: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.lastReleasesCategory {
+  font-size: 13px;
+  padding-top: 15px;
+  margin: 0px;
+}
+
+.lastReleasesTitle {
+  font-size: 20px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.lastReleasesPrice {
+  font-size: 17px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.lastReleasesSpinner {
+  rotate: 90deg;
+  height: 1vh !important;
+  margin-left: 25%;
+}
